@@ -1,0 +1,429 @@
+body {
+    text-rendering: optimizeLegibility;
+    font-family: SourceSanPro;
+}
+.no-padding {
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.full-page {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-header {
+    position: relative;
+    padding: 30px 0;
+    font-size: 17px;
+}
+.wrapper-btn-header {
+    padding-top: 7px;
+}
+.list-btn-header {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    list-style: none;
+}
+.list-btn-header li {
+    margin-right: 30px;
+}
+.list-btn-header li:first-child {
+    margin-right: 0;
+}
+.list-btn-header li a.btn-contact {
+    background: transparent;
+    border: 2px solid #3cafc3;
+    color: #3cafc3;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.list-btn-header li a.btn-contact:visited {
+    background: transparent;
+    /*border: none;*/
+    color: #3cafc3;
+    box-shadow: none;
+}
+.list-btn-header li a.btn-contact:active {
+    background: transparent;
+    /*border: none;*/
+    color: #3cafc3;
+    box-shadow: none;
+}
+.list-btn-header li a.btn-about {
+    background: transparent;
+    border: none;
+    color: tomato;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.list-btn-header li a.btn-about:visited {
+    background: transparent;
+    border: none;
+    color: tomato;
+    box-shadow: none;
+}
+.list-btn-header li a.btn-about:active {
+    background: transparent;
+    border: none;
+    color: tomato;
+    box-shadow: none;
+}
+.container-content.top {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.banner-content {
+    position: relative;
+    height: 80%;
+}
+
+.box-left-banner {
+    position: relative;
+    height: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.tag-line {
+    font-size: 50px;
+    color: tomato;
+    font-family: SourceSanPro;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.box-desc-tl {
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+    margin: 0 0 30px;
+}
+.box-input-email {
+    padding-right: 15px;
+}
+.input.email {
+    padding: 11px 15px;
+    border: 1px solid tomato;
+    height: auto;
+}
+.btn-notifme {
+    background: tomato;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 11px 15px;
+}
+.btn-notifme:focus {
+    background: tomato;
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+.btn-notifme:hover {
+    background: tomato;
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+.btn-notifme:visited {
+    background: tomato;
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+.btn-notifme:active {
+    background: tomato;
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+
+.content-right-banner {
+    position: relative;
+    width: 100%;
+    /*height: 100%;
+    overflow: auto;*/
+}
+.box-right-banner {
+    position: relative;
+    height: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-left: 150px;
+}
+.list-chat {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.list-chat li {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+.box-chat {
+    position: relative;
+    max-width: 320px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.2);
+}
+.box-chat p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.1em;
+}
+.box-chat.right {
+    background: #3cafc3;
+    float: right;
+    color: white;
+}
+.box-chat.left {
+    background: white;
+    float: left;
+    color: rgba(0,0,0,0.5);
+}
+.chat-message {
+    margin: 0 -10px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+.chat-message p {
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+.chat-desc {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    display: inline-block;
+}
+.img-desc {
+    margin-right: 10px;
+    float: left;
+    border-radius: 4px;
+}
+
+.box-desc {
+    position: relative;
+    width: 100%;
+}
+.chat-desc .box-desc {
+    padding-left: 70px;
+}
+.box-desc h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+.box-desc p {
+    line-height: 1.4em;
+}
+
+.container-menu {
+    height: 100%;
+}
+.halonesia-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+.halonesia-menu li {
+    width: 15%;
+}
+.halonesia-menu li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #3cafc3;
+    transition: 100ms all ease-in-out;
+}
+.halonesia-menu li a.active {
+    border-top: 2px solid tomato;
+}
+.halonesia-menu li a:hover {
+    border-top: 2px solid tomato;
+}
+.halonesia-menu li a i {
+    margin-right: 10px;
+    font-size: 25px;
+    color: tomato;
+}
+
+.halonesia-wrapper-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.halonesia-wrapper-menu.mobile {
+    display: none;
+    overflow: hidden;
+    padding: 0px 50px;
+}
+
+.halonesia-wrapper-menu.mobile .halonesia-menu li a {
+    padding: 15px 0;
+}
+
+.wrapper-footer {
+    background: #3cafc3;
+    color: white;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .tag-line {
+        font-size: 40px;
+    }
+    .wrapper-footer {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .full-page {
+        position: relative;
+        height: auto;
+    }
+    .box-input-email {
+        margin-bottom: 15px;
+        padding-right: 0;
+    }
+    .btn-notifme {
+        width: 100%;
+    }
+    .halonesia-wrapper-menu.desktop {
+        display: none;
+    }
+    .halonesia-wrapper-menu.mobile {
+        display: block;
+    }
+    .box-right-banner {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .list-btn-header li {
+        margin-right: 0;
+    }
+    .box-chat {
+        width: auto;
+    }
+}
+
+/** Layout 2 **/
+
+.banner-section-faq {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-top {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.section-bottom {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+.layer-masking {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.5) 100%);
+}
+.banner-title {
+    position: relative;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: tomato;
+}
+.container-content-faq {
+    padding: 30px 15px;
+}
+.menu-faq {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+.menu-faq li a {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    border-left: 2px solid rgba(0,0,0,0.5);
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+.menu-faq li a.active {
+    color: tomato;
+    border-left: 2px solid tomato;
+}
+.menu-faq li a:hover {
+    color: tomato;
+    border-left: 2px solid tomato;
+}
+.menu-faq li a:visited {
+    text-decoration: none;
+}
+
+.title-content-faq {
+    color: #3cafc3;
+    margin-bottom: 30px;
+}
+
+.list-question {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+
+.box-section-question {
+    margin-bottom: 30px;
+}
+
+.head-question-faq {
+    font-weight: bold;
+    color: tomato;
+}
+.title-question-faq {
+    font-weight: bold;
+    color: #3cafc3;
+}
+
+@media screen and (max-width: 1199px) {
+    .box-menu-faq {
+        margin-bottom: 15px;
+    }
+}

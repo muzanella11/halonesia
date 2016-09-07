@@ -1,0 +1,185 @@
+/** Phone Screen **/
+@media screen and (min-width:$enem_screen_phone) {
+    
+}
+
+@media screen and (min-width: 620px) {
+    
+}
+
+/** Tablet Screen **/
+@media screen and (min-width:$enem_screen_tablet) {
+    
+}
+
+/** Medium Screen **/
+@media screen and (min-width:$enem_screen_medium) {
+    
+}
+
+/** Large Screen **/
+@media screen and (min-width:$enem_screen_large) {
+	
+}
+
+@media screen and (min-width:1250px) {
+    
+}
+
+@media screen and (max-width: 1250px) {
+    
+}
+@media screen and (max-width: $enem_screen_md_max) {
+    .banner-content {
+        & .box-left-banner {
+            & .content-left-banner {
+                & .tag-line {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    
+    
+    .wrapper-footer {
+        padding: 10px 0;
+    }
+    .box-menu-faq {
+        margin-bottom: 15px;
+    }
+    
+    .section-top {
+        & .layer-masking {
+            & .banner-title {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+/** Max Medium Screen **/
+@media screen and (max-width: $enem_screen_sm_max) {
+    .full-page {
+        position: relative;
+        height: auto;
+    }
+    .banner-content {
+        & .box-left-banner {
+            & .content-left-banner {
+                & .box-input-email {
+                    margin-bottom: 15px;
+                    padding-right: 0;
+                }
+            }
+        }
+    } 
+    .btn-notifme {
+        width: 100%;
+    }
+    .wrapper-menu {
+        & .container-menu {
+            & .halonesia-wrapper-menu {
+                &.desktop {
+                    display: none;
+                }
+                &.mobile {
+                    display: block;
+                }
+            }
+        }
+    }
+    
+    .banner-content {
+        & .box-right-banner {
+            padding-left: 0;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+
+/** Max Phone Screen **/
+@media screen and (max-width: $enem_screen_xs_max) {
+    
+}
+
+@media screen and (max-width: 620px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (max-width:500px) {
+    
+}
+
+@media screen and (max-width:480px) {
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+}
+
+@media screen and (max-width: 425px) {
+    
+    .box-header {
+        & .wrapper-btn-header {
+            & .list-btn-header {
+                & li {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .banner-content {
+        & .box-right-banner {
+            & .content-right-banner {
+                & .list-chat {
+                    & li {
+                        & .box-chat {
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+/** Responsive By Ratio **/
+//@media screen and (max-aspect-ratio: 16/9) {
+//    body {
+//        background: tomato !important;
+//    }
+//}
+//@media screen and (max-aspect-ratio: 5/3) {
+//    body {
+//        background: yellow !important;
+//    }
+//}
+//@media screen and (max-aspect-ratio: 4/3) {
+//    body {
+//        background: red !important;
+//    }
+//}
+/**********************************/
+
+
+
+
+

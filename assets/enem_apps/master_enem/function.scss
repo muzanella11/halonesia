@@ -1,0 +1,30 @@
+@function enem_get_value_map($enem_map, $key) {
+    /** Example
+    ** 
+        $coloors: (
+          "primary": tomato,
+          "secondary": hotpink
+        );
+
+        .el_test {
+            background: enem_get_value_map($coloors, primary);
+        }
+    **
+    **/
+    @if not map-has-key($enem_map, $key) {
+        @warn "Key #{$key} not found in #{$enem_map} map.";
+    }
+    @return map-get($enem_map, $key);
+}
+
+@function enem_get_value_list($enem_list, $index) {
+    /** Example
+    **
+        $list_item: tomato, red, pink;
+        .el_test {
+            background: enem_get_value_list($list_item, 1);
+        }
+    **
+    **/
+    @return nth($enem_list, $index);
+}

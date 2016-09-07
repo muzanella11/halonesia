@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/xampp/htdocs/halonesia/halonesia/assets/js/vendor.min.js",
+        "C:/xampp/htdocs/halonesia/halonesia/assets/enem_apps/enem_js/enem.js"
+    ]
+}
